@@ -18,8 +18,11 @@ module.exports = {
       test: /\.(svg|ttf|woff|woff2|eot)(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader'
     }, {
+      test: /\.css$/,
+      loader: 'style!'+ 'css?sourceMap'
+    }, {
       test: /\.scss$/,
-      loaders: ['style', 'css', 'sass']
+      loader: 'style!'+ 'css?sourceMap'+ '!sass?sourceMap'
     }]
   },
   resolve: {
