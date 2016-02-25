@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+import './app.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './app.scss';
 import HarViewer from './components/Harviewer';
 
 class App extends React.Component {
