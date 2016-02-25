@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './app.scss';
+import HarViewer from './components/Harviewer';
 
 class App extends React.Component {
   render() {
     return (
-      <h1>React Deep Dive</h1>
+      <HarViewer/>
     );
   }
 };
