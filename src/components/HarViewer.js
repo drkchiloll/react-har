@@ -1,12 +1,10 @@
-require('fixed-data-table/dist/fixed-data-table.css');
+// require('fixed-data-table/dist/fixed-data-table.css');
 import React from 'react';
 import _ from 'lodash';
 import {Grid, Row, Col, PageHeader, Button, ButtonGroup, Input} from
   'react-bootstrap';
-// import FixedDataTable from 'fixed-data-table';
-// const Table = FixedDataTable.Table;
-// const Column = FixedDataTable.Column;
 import {Table, Column, Cell} from 'fixed-data-table';
+import 'fixed-data-table/dist/fixed-data-table.css';
 
 export default class HarViewer extends React.Component {
   constructor() {
