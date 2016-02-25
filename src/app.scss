@@ -1,4 +1,10 @@
-$color: cornsilk;
+$color: lightgoldenrodyellow;
+html,
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
 body {
   background: $color;
 }
